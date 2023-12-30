@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837453296a644d2469b82bc066060beb, type: 3}
+  m_Name: AIConfig
+  m_EditorClassIdentifier: 
+  aiConfigs:
+  - smartMoveProbability: 0
+    intelligenceLevel: 1
+  - smartMoveProbability: 0.4
+    intelligenceLevel: 4
+  - smartMoveProbability: 1
+    intelligenceLevel: 9
